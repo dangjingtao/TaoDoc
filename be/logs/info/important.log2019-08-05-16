@@ -1,0 +1,54 @@
+[2019-08-05T16:34:53.877] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/login[39m [32m200[39m [90m50ms[39m [90m127b[39m
+[2019-08-05T16:34:53.833] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/login[39m
+[2019-08-05T16:34:53.957] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:34:53.973] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m15ms[39m [90m92b[39m
+[2019-08-05T16:40:00.942] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:40:00.955] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m18ms[39m [90m92b[39m
+[2019-08-05T16:44:21.808] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:44:21.823] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m23ms[39m [90m92b[39m
+[2019-08-05T16:51:27.952] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryDetail[39m
+[2019-08-05T16:51:27.968] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryDetail[39m [32m200[39m [90m20ms[39m [90m114b[39m
+[2019-08-05T16:51:29.317] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:29.325] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:51:30.169] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:30.179] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m11ms[39m [90m92b[39m
+[2019-08-05T16:51:31.612] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-05T16:51:31.623] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m11ms[39m [90m259b[39m
+[2019-08-05T16:51:32.454] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:32.474] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:51:33.474] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:33.484] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:51:35.484] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:35.490] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m6ms[39m [90m92b[39m
+[2019-08-05T16:51:35.982] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-05T16:51:35.991] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m13ms[39m [90m259b[39m
+[2019-08-05T16:51:36.531] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:36.539] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m9ms[39m [90m92b[39m
+[2019-08-05T16:51:37.105] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:51:37.115] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:51:38.450] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryDetail[39m
+[2019-08-05T16:51:38.454] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryDetail[39m [32m200[39m [90m6ms[39m [90m114b[39m
+[2019-08-05T16:52:24.595] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:52:24.606] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m12ms[39m [90m92b[39m
+[2019-08-05T16:54:57.811] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:54:57.826] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m7ms[39m [90m92b[39m
+[2019-08-05T16:55:08.579] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:08.586] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:55:14.947] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:14.954] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m9ms[39m [90m92b[39m
+[2019-08-05T16:55:15.841] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:15.878] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m36ms[39m [90m92b[39m
+[2019-08-05T16:55:16.752] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:16.763] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m10ms[39m [90m92b[39m
+[2019-08-05T16:55:20.327] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:20.334] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m8ms[39m [90m92b[39m
+[2019-08-05T16:55:21.253] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:55:21.262] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m10ms[39m [90m92b[39m
+[2019-08-05T16:56:46.323] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:56:46.336] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m17ms[39m [90m92b[39m
+[2019-08-05T16:58:18.097] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:58:18.101] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m4ms[39m [90m92b[39m
+[2019-08-05T16:58:33.672] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:58:33.687] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m12ms[39m [90m92b[39m
+[2019-08-05T16:59:23.339] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-05T16:59:23.343] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m3ms[39m [90m92b[39m
