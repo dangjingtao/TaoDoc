@@ -24,13 +24,13 @@ import {
 } from '../service/document';
 
 // 文件夹操作
-
 import {
     createDirectory,
     updateDirectory,
     queryDirectoryList,
     removeDirectory
 } from '../service/directory';
+
 // 后台文档项目
 import {
     createProduct,
@@ -40,6 +40,12 @@ import {
     removeProductById,
     uploadProductZip
 } from '../service/product';
+
+// 博客前台
+// 后台文档项目
+import {
+    queryCms
+} from '../service/cms';
 
 
 router.get('/', async (ctx, next) => {
@@ -92,6 +98,7 @@ router.post('/product/queryDetail', queryProductDetail);
 router.post('/product/removeById', removeProductById);
 // 上传单个文档
 router.post('/product/upload', multerConfig.single('file'), uploadProductZip);
-
+// 获取博客内容
+router.get('/cms/blogs', queryCms);
 
 export default router

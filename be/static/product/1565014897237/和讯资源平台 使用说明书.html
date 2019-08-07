@@ -1,0 +1,501 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>和讯资源平台 使用说明书</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid-page; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h1><a name='header-n412' class='md-header-anchor '></a>和讯资源教学资源管理平台 使用说明书</h1><p>&nbsp;</p><h2><a name='header-n415' class='md-header-anchor '></a>0 序言</h2><p>本系统是基于教师教学过程中管理，采集教学资源核心需求所设计开发的web应用软件，同时为学生的使用做了应用实现。</p><figure><table><thead><tr><th>使用环境</th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody><tr><td>开发环境</td><td>node.js+react.js(16.2)</td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><p>现将本软件功能作统一说明。</p><p>&nbsp;</p><h2><a name='header-n429' class='md-header-anchor '></a>1 快速上手</h2><h3><a name='header-n430' class='md-header-anchor '></a>1.1 浏览器</h3><p>选择合适的浏览器支持：I E8+和chrome 58+以及firefox 52+的版本。
+推荐使用谷歌Chrome浏览器和苹果电脑系统上的Safari浏览器。
+谷歌Chrome浏览器下载地址：<a href='http://www.google.cn/chrome/browser/desktop/' target='_blank' class='url'>http://www.google.cn/chrome/browser/desktop/</a></p><p>&nbsp;</p><h3><a name='header-n433' class='md-header-anchor '></a>1.2 设备</h3><p>系统支持选择电脑端或手机端登录。
+电脑端可以选择Windows系统或macOS系统</p><p>&nbsp;</p><h3><a name='header-n436' class='md-header-anchor '></a>1.3 登录</h3><p>登录地址：<a href='http://www.zypt.kidhub.cn/' target='_blank' class='url'>http://www.zypt.kidhub.cn/</a></p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522143345122.png' alt='image-20190522143345122' referrerPolicy='no-referrer' /></p><p>首次登录可能将稍等片刻。</p><p>输入账号，密码以及对应角色登录。</p><p>&nbsp;</p><h3><a name='header-n442' class='md-header-anchor '></a>1.4 基本布局</h3><p>教师登录后：</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522144420926.png' alt='image-20190522144420926' referrerPolicy='no-referrer' /></p><p>网站管理员进入网站管理</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522144542924.png' alt='image-20190522144542924' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h2><a name='header-n448' class='md-header-anchor '></a>2.资源检索视图</h2><p>进入学科首页后，主视图为本学科的热门视频和科目文章。</p><p>上方可快捷切换视图。</p><h3><a name='header-n451' class='md-header-anchor '></a>2.1 检索资源</h3><p>视图左侧，可直接检索在栏目中属于本科目的课程。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522145416211.png' alt='image-20190522145416211' referrerPolicy='no-referrer' /></p><p>点击课程后，可进入课程资源检索视图。</p><p>点击某个课程之后，可见该科目下所有课程。并可以根据资源（元数据）类型快速检索。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522145716017.png' alt='image-20190522145716017' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>右侧是本学科的热门标签。通过搜索栏，可检索本学科资源上的标签。点击热门标签，或标签搜索结果，可显示该标签下，选中课程的所有资源。</p><h3><a name='header-n459' class='md-header-anchor '></a>2.2 资源类型</h3><p>本系统资源分为9种</p><ul><li>word/ppt/pdf</li><li>图片/音频/视频</li><li>试题/主观题/客观题</li></ul><h3><a name='header-n468' class='md-header-anchor '></a>2.3 资源详情</h3><p>点击资源。可查看对应资源的详情。</p><p><img src='/Users/dangjingtao/Library/Application%20Support/typora-user-images/image-20190522151503006.png' alt='image-20190522151503006' referrerPolicy='no-referrer' /></p><h3><a name='header-n471' class='md-header-anchor '></a> </h3><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522152831623.png' alt='image-20190522152831623' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>点击收藏按钮，可将自身的资源存放到收藏夹。</p><p>&nbsp;</p><h2><a name='header-n476' class='md-header-anchor '></a>3. 个人中心视图</h2><h3><a name='header-n477' class='md-header-anchor '></a>3.1 我的消息</h3><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522162015601.png' alt='image-20190522162015601' referrerPolicy='no-referrer' /></p><p>个人-我的消息，可获取个人相关的消息。（审核结果。）</p><p>&nbsp;</p><h3><a name='header-n481' class='md-header-anchor '></a>3.2 个人资料</h3><p>个人-个人资料，可获取个人资料。和基本显示设置</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522162239916.png' alt='image-20190522162239916' referrerPolicy='no-referrer' /></p><h3><a name='header-n484' class='md-header-anchor '></a>3.3 我的收藏</h3><p>教师个人收藏分为2级，允许自定义收藏夹。根据个人偏好储存采集的教学资源</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522163129357.png' alt='image-20190522163129357' referrerPolicy='no-referrer' /></p><h3><a name='header-n487' class='md-header-anchor '></a>3.4 我的关注</h3><p>教师之间可以相互关注，学生也可以关注老师</p><p>通过关注逻辑，用户可较为方便地订阅关注用户的动态。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522163343613.png' alt='image-20190522163343613' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n492' class='md-header-anchor '></a>3.5 元数据（资源）-我要上传</h3><h4><a name='header-n493' class='md-header-anchor '></a>3.5.1 直接上传</h4><p>直接上传支持pdf，word，ppt，音频，视频。可直接根据后缀判断。存入系统。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522163810242.png' alt='image-20190522163810242' referrerPolicy='no-referrer' /></p><p>上传时可给资源打标签，添加描述。</p><p>对于视频资源，系统会进行转码。因此需要一定的时间</p><p>&nbsp;</p><h4><a name='header-n499' class='md-header-anchor '></a>3.5.2 在线创作</h4><p>在线创作可选择主观题，客观题（包括单选，多选）</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522164634413.png' alt='image-20190522164634413' referrerPolicy='no-referrer' /></p><p>编辑器主要支持主流katex语法。</p><p>&nbsp;</p><h4><a name='header-n504' class='md-header-anchor '></a>3.5.3 导入题目</h4><p>作为批量导入客观题和主观题的快捷方式，导入试题和导入试卷共用一套word模板。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522170537267.png' alt='image-20190522170537267' referrerPolicy='no-referrer' /></p><h4><a name='header-n507' class='md-header-anchor '></a>3.5.4 标签</h4><p>上传者可以通过搜索给资源打标签，如标签不再数据库中，可上报到总后台</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522175652743.png' alt='image-20190522175652743' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n511' class='md-header-anchor '></a>3.6 组卷</h3><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522170853373.png' alt='image-20190522170853373' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><p>组卷可记录历史上未完成的组卷。，用户可选择继续或重组一份试卷。</p><p>用户可选择从收藏夹或全站搜索导入资源，并设置该题目分值。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522171038042.png' alt='image-20190522171038042' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><p>在&quot;组卷篮子&quot;中，可拖动题目调整顺序并调整预览</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522171243884.png' alt='image-20190522171243884' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>当预览无误后，即可提交组卷。将作为一个元数据进入到审核流程</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522171355799.png' alt='image-20190522171355799' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n526' class='md-header-anchor '></a>3.7 我的元数据</h3><p>本模块反映的是个人上传元数据之后的流向。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522171445616.png' alt='image-20190522171445616' referrerPolicy='no-referrer' /></p><ul><li>已上传：未有审核者接单的状态</li><li>已发布：审核被接单且被通过</li><li>未发布：进入审核流程，但尚未有结果</li><li>被驳回，进入审核流程，不被通过</li></ul><p>&nbsp;</p><h3><a name='header-n539' class='md-header-anchor '></a>3.8 我的审核（科目审核员权限）</h3><p>本模块针对科目管理员设置，拥有科目管理员的老师，可在此接受其它老师上传上来的元数据。</p><p>审核员老师可通过&quot;待我审核&quot;查询到自己可以看到的元数据。可翻阅详情。如合适可直接通过审核</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522173649541.png' alt='image-20190522173649541' referrerPolicy='no-referrer' /></p><h3><a name='header-n543' class='md-header-anchor '></a>3.9 课程管理（部分审核员权限）</h3><h4><a name='header-n544' class='md-header-anchor '></a>3.9.1 我的课程</h4><p>所有教师可查看自己创建的课程，并点击详情进入分析</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522174136070.png' alt='image-20190522174136070' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522174205729.png' alt='image-20190522174205729' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h4><a name='header-n550' class='md-header-anchor '></a>3.9.2 待审核（审核员权限）</h4><p>审核员可在此查看认领的课程。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522174314922.png' alt='image-20190522174314922' referrerPolicy='no-referrer' /></p><h4><a name='header-n553' class='md-header-anchor '></a>3.9.3 我的审核</h4><p>认领之后即可进入审核视图，或者放弃审核</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522174538006.png' alt='image-20190522174538006' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h2><a name='header-n557' class='md-header-anchor '></a>4.  网站后台</h2><p>&nbsp;</p><p>拥有网站管理员权限的老师，可进入网站管理。</p><p>网站管理可收集网站的基本情况</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522174933187.png' alt='image-20190522174933187' referrerPolicy='no-referrer' /></p><h4><a name='header-n562' class='md-header-anchor '></a>4.1 用户管理</h4><p>管理员可在此对全站用户（老师/学生）管理。（导入，查询和修改）</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522175010985.png' alt='image-20190522175010985' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h4><a name='header-n566' class='md-header-anchor '></a>4.2 学科</h4><p>可在&quot;学科管理“中，设置学科。</p><p>对于不同学科，其重要数据（运营情况，热门课程，banner，文章，课程和元数据）皆可进行统计和管理。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522175207301.png' alt='image-20190522175207301' referrerPolicy='no-referrer' /></p><blockquote><p>从设计者的角度来说，更希望科目管理员正在个人中心完成这个工作。</p></blockquote><h3><a name='header-n572' class='md-header-anchor '></a>4.3 公共</h3><p>公共资源和标签，需要在总后台进行管理和审核</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522175516754.png' alt='image-20190522175516754' referrerPolicy='no-referrer' /></p><h3><a name='header-n575' class='md-header-anchor '></a>4.4 系统设置</h3><h4><a name='header-n576' class='md-header-anchor '></a>4.4.1 环境变量</h4><p>可在此对网站进行全局的设置。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522175812831.png' alt='image-20190522175812831' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h4><a name='header-n580' class='md-header-anchor '></a>4.4.2 运维人员（超级管理员）</h4><p>本系统的运维人员定义包括</p><ul><li><p>网站超级管理员（1人）</p></li><li><p>后台管理员，可进入网站后台的角色。主要为分担超管的工作。</p></li><li><p>网站科目管理员（每个科目都有，不限制）</p><p>&nbsp;</p></li></ul><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522180148573.png' alt='image-20190522180148573' referrerPolicy='no-referrer' /></p><h2><a name='header-n593' class='md-header-anchor '></a>5.学生版</h2><p>本系统学生版视图主要供学生使用，教师也可在上面浏览课程。亦可在搜索界面检索课程。</p><p>登录学生端。或教师在登录后界面点击&quot;进入前台&quot;即可进入。</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181117227.png' alt='image-20190522181117227' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n605' class='md-header-anchor '></a>5.1 科目</h3><p>在科目详情中。可查看课程和文章列表</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181315509.png' alt='image-20190522181315509' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><h3><a name='header-n618' class='md-header-anchor '></a>5.2 课程</h3><p>学生版中，可进入课程学习，温习，管理错题</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181353725.png' alt='image-20190522181353725' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>&nbsp;</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181500603.png' alt='image-20190522181500603' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>  所有客观题都将记录进度。</p><p>&nbsp;</p><h3><a name='header-n631' class='md-header-anchor '></a>5.3 个人中心</h3><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181715036.png' alt='image-20190522181715036' referrerPolicy='no-referrer' /></p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181853359.png' alt='image-20190522181853359' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181922044.png' alt='image-20190522181922044' referrerPolicy='no-referrer' /></p><p><img src='/Users/dangjingtao/Library/Application Support/typora-user-images/image-20190522181945604.png' alt='image-20190522181945604' referrerPolicy='no-referrer' /></p><p>&nbsp;</p><p>个人中心基本功能：</p><ul><li>查看个人信息</li><li>设置收藏课程</li><li>关注感兴趣的老师</li><li>设置个人资料</li></ul></div>
+</body>
+</html>

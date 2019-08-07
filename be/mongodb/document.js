@@ -6,6 +6,8 @@ import mongoose from '../utils/mongoose'
 import {
     MD5
 } from '../utils/utils'
+var Schema = mongoose.Schema;
+
 
 const Document = new mongoose.Schema({
     id: {
@@ -43,7 +45,8 @@ const Document = new mongoose.Schema({
     ext3: {
         type: String,
         default: null
-    }
+    },
+    dir: [{ type: Schema.Types.ObjectId, ref: 'Directory' }]
 });
 
 export default mongoose.model("Document", Document)

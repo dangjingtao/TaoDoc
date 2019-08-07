@@ -1,0 +1,189 @@
+[2019-08-06T11:00:52.536] [INFO] info - 数据库连接成功
+[2019-08-06T11:00:52.512] [INFO] info - server is start！
+[2019-08-06T11:00:52.556] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:00:55.411] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/login[39m
+[2019-08-06T11:00:55.422] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/login[39m [32m200[39m [90m12ms[39m [90m128b[39m
+[2019-08-06T11:00:55.514] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:00:55.540] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m26ms[39m [90m623b[39m
+[2019-08-06T11:00:57.119] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:00:57.140] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m21ms[39m [90m937b[39m
+[2019-08-06T11:03:50.456] [INFO] info - server is start！
+[2019-08-06T11:03:50.474] [INFO] info - 数据库连接成功
+[2019-08-06T11:03:50.481] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:03:57.027] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:03:57.050] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m22ms[39m [90m937b[39m
+[2019-08-06T11:04:06.739] [INFO] info - server is start！
+[2019-08-06T11:04:06.761] [INFO] info - 数据库连接成功
+[2019-08-06T11:04:06.768] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:04:29.692] [INFO] info - server is start！
+[2019-08-06T11:04:29.709] [INFO] info - 数据库连接成功
+[2019-08-06T11:04:29.716] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:04:32.249] [INFO] info - server is start！
+[2019-08-06T11:04:32.283] [INFO] info - 数据库连接成功
+[2019-08-06T11:04:32.290] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:04:42.431] [INFO] info - server is start！
+[2019-08-06T11:04:42.451] [INFO] info - 数据库连接成功
+[2019-08-06T11:04:42.458] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:05:01.639] [INFO] info - server is start！
+[2019-08-06T11:05:01.658] [INFO] info - 数据库连接成功
+[2019-08-06T11:05:01.665] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:05:04.430] [INFO] info - server is start！
+[2019-08-06T11:05:04.447] [INFO] info - 数据库连接成功
+[2019-08-06T11:05:04.454] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:08:08.021] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:08:08.048] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m29ms[39m [90m937b[39m
+[2019-08-06T11:08:17.439] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:08:17.457] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m20ms[39m [90m-[39m
+[2019-08-06T11:08:28.476] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:08:28.479] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m2ms[39m [90m-[39m
+[2019-08-06T11:10:24.712] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:10:24.716] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m2ms[39m [90m-[39m
+[2019-08-06T11:10:32.995] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:10:33.001] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m6ms[39m [90m-[39m
+[2019-08-06T11:10:35.694] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:10:35.695] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m2ms[39m [90m-[39m
+[2019-08-06T11:11:46.673] [INFO] info - server is start！
+[2019-08-06T11:11:46.692] [INFO] info - 数据库连接成功
+[2019-08-06T11:11:46.699] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:12:05.113] [INFO] info - server is start！
+[2019-08-06T11:12:05.132] [INFO] info - 数据库连接成功
+[2019-08-06T11:12:05.139] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:14:09.765] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:14:09.811] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m45ms[39m [90m623b[39m
+[2019-08-06T11:14:11.336] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryList[39m
+[2019-08-06T11:14:11.362] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryList[39m [32m200[39m [90m30ms[39m [90m604b[39m
+[2019-08-06T11:14:13.131] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:14:13.144] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m14ms[39m [90m623b[39m
+[2019-08-06T11:14:15.832] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryList[39m
+[2019-08-06T11:14:15.845] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryList[39m [32m200[39m [90m13ms[39m [90m604b[39m
+[2019-08-06T11:14:16.205] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:14:16.216] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m11ms[39m [90m623b[39m
+[2019-08-06T11:14:17.024] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:14:17.036] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m404[39m [90m12ms[39m [90m-[39m
+[2019-08-06T11:15:15.867] [INFO] info - server is start！
+[2019-08-06T11:15:15.970] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:15:16.003] [INFO] info - 数据库连接成功
+[2019-08-06T11:15:16.018] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:15:16.030] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [33m405[39m [90m57ms[39m [90m-[39m
+[2019-08-06T11:15:34.300] [INFO] info - server is start！
+[2019-08-06T11:15:34.319] [INFO] info - 数据库连接成功
+[2019-08-06T11:15:34.326] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:15:40.151] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:15:40.160] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m10ms[39m [90m64b[39m
+[2019-08-06T11:16:43.644] [INFO] info - server is start！
+[2019-08-06T11:16:43.664] [INFO] info - 数据库连接成功
+[2019-08-06T11:16:43.671] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:16:46.059] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:16:46.076] [INFO] info -   [31mxxx[39m [1mGET[22m [90m/cms/blogs?[39m [31m500[39m [90m15ms[39m [90m-[39m
+[2019-08-06T11:17:23.247] [INFO] info - server is start！
+[2019-08-06T11:17:23.267] [INFO] info - 数据库连接成功
+[2019-08-06T11:17:23.275] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:17:34.429] [INFO] info - server is start！
+[2019-08-06T11:17:34.454] [INFO] info - 数据库连接成功
+[2019-08-06T11:17:34.462] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:17:39.609] [INFO] info - server is start！
+[2019-08-06T11:17:39.627] [INFO] info - 数据库连接成功
+[2019-08-06T11:17:39.634] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:17:41.032] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:17:41.043] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m10ms[39m [90m64b[39m
+[2019-08-06T11:17:56.340] [INFO] info - server is start！
+[2019-08-06T11:17:56.358] [INFO] info - 数据库连接成功
+[2019-08-06T11:17:56.365] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:17:58.766] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:17:58.776] [INFO] info -   [31mxxx[39m [1mGET[22m [90m/cms/blogs?[39m [31m500[39m [90m11ms[39m [90m-[39m
+[2019-08-06T11:18:17.459] [INFO] info - server is start！
+[2019-08-06T11:18:17.476] [INFO] info - 数据库连接成功
+[2019-08-06T11:18:17.482] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:18:24.884] [INFO] info - server is start！
+[2019-08-06T11:18:24.960] [INFO] info - 数据库连接成功
+[2019-08-06T11:18:24.969] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:18:25.837] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:18:25.846] [INFO] info -   [31mxxx[39m [1mGET[22m [90m/cms/blogs?[39m [31m500[39m [90m10ms[39m [90m-[39m
+[2019-08-06T11:19:09.656] [INFO] info - server is start！
+[2019-08-06T11:19:09.676] [INFO] info - 数据库连接成功
+[2019-08-06T11:19:09.683] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:19:44.866] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:19:44.889] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m23ms[39m [90m939b[39m
+[2019-08-06T11:20:14.014] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:20:14.034] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m20ms[39m [90m939b[39m
+[2019-08-06T11:20:29.273] [INFO] info - server is start！
+[2019-08-06T11:20:29.293] [INFO] info - 数据库连接成功
+[2019-08-06T11:20:29.300] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:21:08.281] [INFO] info - server is start！
+[2019-08-06T11:21:08.299] [INFO] info - 数据库连接成功
+[2019-08-06T11:21:08.305] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:21:18.568] [INFO] info - server is start！
+[2019-08-06T11:21:18.697] [INFO] info - 数据库连接成功
+[2019-08-06T11:21:18.712] [INFO] info - 已有同名用户,初始化用户成功
+[2019-08-06T11:21:18.888] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:21:18.958] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m70ms[39m [90m939b[39m
+[2019-08-06T11:21:27.413] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:21:27.433] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m20ms[39m [90m623b[39m
+[2019-08-06T11:21:29.547] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:21:29.563] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m16ms[39m [90m939b[39m
+[2019-08-06T11:22:13.258] [INFO] info -   [90m<--[39m [1mGET[22m [90m/cms/blogs?[39m
+[2019-08-06T11:22:13.290] [INFO] info -   [90m-->[39m [1mGET[22m [90m/cms/blogs?[39m [32m200[39m [90m30ms[39m [90m939b[39m
+[2019-08-06T11:22:13.735] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/product/queryList[39m
+[2019-08-06T11:22:13.751] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/product/queryList[39m [32m200[39m [90m17ms[39m [90m623b[39m
+[2019-08-06T11:22:15.378] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:22:15.399] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m22ms[39m [90m937b[39m
+[2019-08-06T11:22:18.612] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:22:18.628] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m16ms[39m [90m937b[39m
+[2019-08-06T11:22:23.026] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:22:23.044] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m19ms[39m [90m92b[39m
+[2019-08-06T11:22:25.221] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:22:25.252] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m32ms[39m [90m937b[39m
+[2019-08-06T11:22:26.787] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:22:26.802] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m15ms[39m [90m92b[39m
+[2019-08-06T11:22:39.962] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryList[39m
+[2019-08-06T11:22:39.979] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryList[39m [32m200[39m [90m18ms[39m [90m604b[39m
+[2019-08-06T11:22:41.261] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:22:41.276] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m16ms[39m [90m937b[39m
+[2019-08-06T11:22:42.534] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryList[39m
+[2019-08-06T11:22:42.554] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryList[39m [32m200[39m [90m21ms[39m [90m604b[39m
+[2019-08-06T11:22:46.308] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/user/queryList[39m
+[2019-08-06T11:22:46.325] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/user/queryList[39m [32m200[39m [90m16ms[39m [90m604b[39m
+[2019-08-06T11:22:56.222] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:22:56.249] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m27ms[39m [90m937b[39m
+[2019-08-06T11:22:59.528] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:22:59.551] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m24ms[39m [90m92b[39m
+[2019-08-06T11:23:15.910] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/create[39m
+[2019-08-06T11:23:15.928] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/create[39m [32m200[39m [90m18ms[39m [90m374b[39m
+[2019-08-06T11:23:16.023] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/detail[39m
+[2019-08-06T11:23:16.032] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/detail[39m [32m200[39m [90m9ms[39m [90m374b[39m
+[2019-08-06T11:23:16.249] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/detail[39m
+[2019-08-06T11:23:16.252] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/detail[39m [32m200[39m [90m4ms[39m [90m374b[39m
+[2019-08-06T11:23:18.697] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/update[39m
+[2019-08-06T11:23:18.715] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/update[39m [32m200[39m [90m19ms[39m [90m56b[39m
+[2019-08-06T11:23:20.542] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:23:20.563] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m22ms[39m [90m937b[39m
+[2019-08-06T11:23:22.915] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:23:22.928] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m12ms[39m [90m308b[39m
+[2019-08-06T11:23:26.060] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:23:26.078] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m21ms[39m [90m937b[39m
+[2019-08-06T11:23:27.715] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:23:27.733] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m19ms[39m [90m92b[39m
+[2019-08-06T11:23:42.682] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/create[39m
+[2019-08-06T11:23:42.689] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/create[39m [32m200[39m [90m7ms[39m [90m376b[39m
+[2019-08-06T11:23:42.930] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/detail[39m
+[2019-08-06T11:23:42.937] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/detail[39m [32m200[39m [90m5ms[39m [90m376b[39m
+[2019-08-06T11:23:46.395] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/update[39m
+[2019-08-06T11:23:46.405] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/update[39m [32m200[39m [90m10ms[39m [90m56b[39m
+[2019-08-06T11:23:47.241] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:23:47.260] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m20ms[39m [90m937b[39m
+[2019-08-06T11:23:49.505] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:23:49.526] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m21ms[39m [90m92b[39m
+[2019-08-06T11:24:02.221] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/create[39m
+[2019-08-06T11:24:02.227] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/create[39m [32m200[39m [90m6ms[39m [90m375b[39m
+[2019-08-06T11:24:02.251] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/detail[39m
+[2019-08-06T11:24:02.256] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/detail[39m [32m200[39m [90m5ms[39m [90m375b[39m
+[2019-08-06T11:24:02.495] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/detail[39m
+[2019-08-06T11:24:02.499] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/detail[39m [32m200[39m [90m4ms[39m [90m375b[39m
+[2019-08-06T11:24:04.373] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/update[39m
+[2019-08-06T11:24:04.381] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/update[39m [32m200[39m [90m8ms[39m [90m56b[39m
+[2019-08-06T11:24:05.637] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:24:05.673] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m35ms[39m [90m937b[39m
+[2019-08-06T11:24:06.960] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/document/queryList[39m
+[2019-08-06T11:24:06.975] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/document/queryList[39m [32m200[39m [90m14ms[39m [90m303b[39m
+[2019-08-06T11:24:09.315] [INFO] info -   [90m<--[39m [1mPOST[22m [90m/directory/queryList[39m
+[2019-08-06T11:24:09.337] [INFO] info -   [90m-->[39m [1mPOST[22m [90m/directory/queryList[39m [32m200[39m [90m22ms[39m [90m937b[39m
