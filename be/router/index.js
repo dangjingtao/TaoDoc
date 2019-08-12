@@ -3,6 +3,8 @@ const router = new KoaRouter()
 import fs from 'fs'
 import path from 'path'
 import multerConfig from '../config/multer'
+import uploadAudioConfig from '../config/uploadAudio'
+
 // 用户相关
 import {
     createUser,
@@ -41,11 +43,18 @@ import {
     uploadProductZip
 } from '../service/product';
 
+
+function resolve(dir) {
+    return path.join(__dirname, '../../', dir)
+}
+
+
 // 博客前台
 // 后台文档项目
 import {
     queryCms
 } from '../service/cms';
+import { uploadAudio,getAudioList,removeAudio } from '../service/audio';
 
 
 router.get('/', async (ctx, next) => {
@@ -101,4 +110,13 @@ router.post('/product/upload', multerConfig.single('file'), uploadProductZip);
 // 获取博客内容
 router.get('/cms/blogs', queryCms);
 
+
+// 上传歌曲zip
+router.post('/audios/upload',uploadAudioConfig.single('file'),uploadAudio)
+
+// 获取歌曲列表
+router.get('/audios/list',getAudioList)
+
+// 删除歌曲
+router.post('/audio/remove',removeAudio)
 export default router

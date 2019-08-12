@@ -4,6 +4,7 @@
 import fs from 'fs';
 import unzip from 'node-unzip-2';
 import path from 'path';
+
 /*
 * 创建文件夹
 * */
@@ -27,7 +28,6 @@ export const mkdir = src => {
 /*
 * 删除文件夹
 * */
-
 export const rmdir = path => {
     return new Promise(resolve => {
         let files = [];
@@ -47,11 +47,21 @@ export const rmdir = path => {
     })
 }
 
+/**
+ * 删除单个文件
+ */
+export const rm=(path)=>{
+    return new Promise(resolve=>{
+        if (fs.existsSync(path)) {
+            fs.unlinkSync(path);
+        }
+        resolve(true) 
+    })
+}
+
 /*
 * 解压文件
 * */
-
-
 export const unzipFile = (filePath, targetPath) => {
     return new Promise(resolve => {
         const stream = fs.createReadStream(filePath);
@@ -69,11 +79,12 @@ export const unzipFile = (filePath, targetPath) => {
         });
     })
 }
+
+
 /*
 * 读取文件夹下的目录和文件
 * */
-
-const readFiles = filePath => {
+export const readFiles = filePath => {
     return new Promise(resolve => {
         fs.readdir(filePath, (err, files) => {
             resolve(files);
@@ -81,6 +92,9 @@ const readFiles = filePath => {
     })
 }
 
+/**
+ * 获取文件和文件夹状态
+ */
 const stat = filedir => {
     return new Promise(resolve => {
         fs.stat(filedir,async  (eror, stats) =>{
@@ -119,6 +133,8 @@ function fileDisplay(filePath) {
         })
     })
 }
+
+
 //
 export const readdir = src => {
     return new Promise(async resolve => {

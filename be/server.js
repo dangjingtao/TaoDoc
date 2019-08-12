@@ -11,6 +11,7 @@ import schedule from './service/schedule';
 import koaLogger from 'koa-logger';
 import { initRootUser } from './service/user';
 
+
 schedule()
 mongodb();
 app.use(bodyParser());
